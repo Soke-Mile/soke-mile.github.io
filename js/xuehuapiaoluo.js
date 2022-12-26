@@ -7,7 +7,7 @@
 		minSize		: 10,
 		maxSize		: 20,
 		newOn		: 1000,
-		flakeColor	: "#AFDAEF" /* 姝ゅ鍙互瀹氫箟闆姳棰滆壊锛岃嫢瑕佺櫧鑹插彲浠ユ敼涓�#FFFFFF */
+		flakeColor	: "#AFDAEF" 
 	},
 	options	= $.extend({}, defaults, options);
 	var interval= setInterval( function(){
@@ -34,8 +34,8 @@
 })(jQuery);
 $(function(){
     $.fn.snow({ 
-	    minSize: 5, /* 瀹氫箟闆姳鏈€灏忓昂瀵� */
-	    maxSize: 50,/* 瀹氫箟闆姳鏈€澶у昂瀵� */
-	    newOn: 500  /* 瀹氫箟瀵嗛泦绋嬪害锛屾暟瀛楄秺灏忚秺瀵嗛泦 */
+	    minSize: 5, 
+	    maxSize: 50,
+	    newOn: 500  
     });
 });
