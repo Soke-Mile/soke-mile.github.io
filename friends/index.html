@@ -52,7 +52,6 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
- <script type="text/javascript"> //只在桌面版网页启用特效 var windowWidth = $(window).width(); if (windowWidth > 768) { document.write('<script type="text/javascript" src="/js/sakura.js"></script>'); } </script> 
 
 
 
@@ -748,7 +747,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">160</span>
+                        class="white-color">163</span>
             
             
             
@@ -865,6 +864,7 @@
 <div class="progress-bar"></div>
 
 
+ <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;" ></canvas> <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> <script type="text/javascript" src="/js/fireworks.js"></script> 
 
 
     <!-- 搜索遮罩框 -->
@@ -1013,17 +1013,16 @@ $(function () {
     
 
     
-        
+
+    <!-- 雪花特效 -->
+     
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
             if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
             }
         </script>
-    
-
-    <!-- 雪花特效 -->
     
 
     <!-- 鼠标星星特效 -->

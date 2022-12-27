@@ -53,7 +53,6 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
- <script type="text/javascript"> //只在桌面版网页启用特效 var windowWidth = $(window).width(); if (windowWidth > 768) { document.write('<script type="text/javascript" src="/js/sakura.js"></script>'); } </script> 
 
 
 
@@ -389,7 +388,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    160
+                    163
                 </div>
                 
 
@@ -415,7 +414,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>花费了两天的时间，终于把博客算是搭建成了，虽然在过程中还是遇到了不少的问题，但怎么说，成功就算是好的了。以前也整过博客网站，但感觉做的不是很好，况且功能还单一，自己在写代码很费劲，所以自己为解决上述问题，搭建hexo博客。  </p>
-<h1 id="一句hello-world开启前程"><a href="#一句hello-world开启前程" class="headerlink" title="一句hello world开启前程"></a>一句hello world开启前程</h1><p>hello world，开启我的新博客之旅，新的技术，新的探索在等着我还有屏幕前的你，就让这hello world作为最完美的开头曲吧！还有一句，送博主一杯</p>
+<h1 id="一句hello-world开启前程"><a href="#一句hello-world开启前程" class="headerlink" title="一句hello world开启前程"></a>一句hello world开启前程</h1><p>hello world，开启我的新博客之旅，新的技术，新的探索在等着我还有屏幕前的你，就让这hello world作为最完美的开头曲吧！还有一句，送博主一杯，怎么样？</p>
 
                 
             </div>
@@ -840,7 +839,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">160</span>
+                        class="white-color">163</span>
             
             
             
@@ -957,6 +956,7 @@
 <div class="progress-bar"></div>
 
 
+ <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;" ></canvas> <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> <script type="text/javascript" src="/js/fireworks.js"></script> 
 
 
     <!-- 搜索遮罩框 -->
@@ -1105,17 +1105,16 @@ $(function () {
     
 
     
-        
+
+    <!-- 雪花特效 -->
+     
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
             if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
             }
         </script>
-    
-
-    <!-- 雪花特效 -->
     
 
     <!-- 鼠标星星特效 -->
