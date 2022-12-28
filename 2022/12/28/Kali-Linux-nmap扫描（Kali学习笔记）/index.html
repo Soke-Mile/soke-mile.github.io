@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Kali Linux nmap扫描（Kali学习笔记）, Soke&amp;博客">
-    <meta name="description" content="">
+    <meta name="description" content="这是我在hexo发的第一篇有关技术的文章，还望多多关照，不喜勿喷。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -360,9 +360,17 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%B8%97%E9%80%8F%E9%BB%91%E5%AE%A2/">
+                                <span class="chip bg-color">渗透黑客</span>
+                            </a>
+                        
+                            <a href="/tags/Kali-Linux/">
+                                <span class="chip bg-color">Kali Linux</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -383,7 +391,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    358
                 </div>
                 
 
@@ -408,7 +416,25 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="渗透入侵第一步——信息收集"><a href="#渗透入侵第一步——信息收集" class="headerlink" title="渗透入侵第一步——信息收集"></a>渗透入侵第一步——信息收集</h1><p>要想做好渗透，收集信息这一步可以算是所有步骤中最重要的一个步骤，信息收集的好，对之后各种工作会起到非常大的作用。</p>
+<h2 id="nmap扫描工具的使用"><a href="#nmap扫描工具的使用" class="headerlink" title="nmap扫描工具的使用"></a>nmap扫描工具的使用</h2><p>nmap相比大家都很了解，这里我给出一些nmap的常用命令。如果想要了解更多，可以去nmap官网查看更多信息：<a target="_blank" rel="noopener" href="https://nmap.org/">https://nmap.org/</a>   </p>
+<h3 id="简单扫描"><a href="#简单扫描" class="headerlink" title="简单扫描"></a>简单扫描</h3><p>在Kali Linux的终端输入一下命令：   </p>
+<pre><code class="Bash">nmap 目标主机IP或网站URL
+</code></pre>
+<p>这种扫描方式不添加任何参数，得出的也只是基本的信息。   </p>
+<h3 id="扫描主机开放的端口"><a href="#扫描主机开放的端口" class="headerlink" title="扫描主机开放的端口"></a>扫描主机开放的端口</h3><p>输入命令：   </p>
+<pre><code class="Bash">nmap -sS 主机IP或网站URL
+</code></pre>
+<p>这种扫描可能有些费时，不过他对于发现漏洞有很大的意义。</p>
+<h3 id="判断主机操作系统"><a href="#判断主机操作系统" class="headerlink" title="判断主机操作系统"></a>判断主机操作系统</h3><p>输入命令：   </p>
+<pre><code class="Bash">nmap -O 主机IP或网站URL
+</code></pre>
+<p>可能是因为Windows安全好的原因，判断出来的操作系统有猜测，因为本人亲自实验过。</p>
+<h3 id="扫描常见漏洞"><a href="#扫描常见漏洞" class="headerlink" title="扫描常见漏洞"></a>扫描常见漏洞</h3><p>输入命令：   </p>
+<pre><code class="Bash">nmap --script=vuln 目标主机IP或网站URL
+</code></pre>
+<p>这里具体的漏洞展示我好像忘了上面的单词是什么……，自己把输出的内容去百度翻译翻译一下吧。<br>再次强调一下，本篇展示的只是一些常用的命令，更多命令可以去官网：<a target="_blank" rel="noopener" href="http://nmap.org/">http://nmap.org</a>查看。 </p>
+
                 
             </div>
             <hr/>
@@ -471,7 +497,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E6%B8%97%E9%80%8F%E9%BB%91%E5%AE%A2/">
+                                    <span class="chip bg-color">渗透黑客</span>
+                                </a>
+                            
+                                <a href="/tags/Kali-Linux/">
+                                    <span class="chip bg-color">Kali Linux</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -565,7 +599,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            这是我在hexo发的第一篇有关技术的文章，还望多多关照，不喜勿喷。
                         
                     </div>
                     <div class="publish-info">
@@ -581,6 +615,18 @@
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B8%97%E9%80%8F%E9%BB%91%E5%AE%A2/">
+                        <span class="chip bg-color">渗透黑客</span>
+                    </a>
+                    
+                    <a href="/tags/Kali-Linux/">
+                        <span class="chip bg-color">Kali Linux</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -823,7 +869,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">287</span>
+                        class="white-color">645</span>
             
             
             
