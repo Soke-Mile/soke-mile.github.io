@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>C語言教程（程序結構篇） | </title>
-  <meta name="keywords" content=" C語言 , 编程 ">
-  <meta name="description" content="C語言教程（程序結構篇） | ">
+  <title>about | </title>
+  <meta name="keywords" content="">
+  <meta name="description" content="about | ">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
@@ -399,28 +399,19 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-C语言教程（程序结构与基本语法" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">C語言教程（程序結構篇）</h1>
+        <h1 class="article-title">about</h1>
     
     <div class="article-meta">
         
         
         
-        
-        <span class="tag">
-            <i class="iconfont icon-tag"></i>
-            
-            <a class="color4">C語言</a>
-            
-            <a class="color3">编程</a>
-            
-        </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-01-01 16:25:53'>2022-12-30 18:09</time>
+            发布时间 : <time class="date" title='最后更新: 2023-01-02 20:29:25'>2023-01-02 20:29</time>
         
     </div>
     <div class="article-meta">
@@ -442,7 +433,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%B8%E7%BF%92C%E8%AA%9E%E8%A8%80%E9%A0%88%E7%9F%A5"><span class="toc-text">學習C語言須知</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#C%E8%AA%9E%E8%A8%80%E7%AC%AC%E4%B8%80%E7%AF%87%E2%80%94%E2%80%94%E4%BA%86%E8%A7%A3%E7%A8%8B%E5%BA%8F%E7%B5%90%E6%A7%8B"><span class="toc-text">C語言第一篇——了解程序結構</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A8%8B%E5%BA%8F%E7%B5%90%E6%A7%8B"><span class="toc-text">程序結構</span></a></li></ol></li></ol></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -458,25 +449,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>今天突發奇想，決定開始不定期的寫C語言一系列教程，目的既是為了我給自己寫一點筆記，也是給各位提供一個好的學習路徑，沒有什麽好說的了，直接上教程。</p>
-</blockquote>
-<h1 id="學習C語言須知"><a href="#學習C語言須知" class="headerlink" title="學習C語言須知"></a>學習C語言須知</h1><p>在學習C語言之前，最好要有一些編程基礎，建議從來沒有學過代碼編程的可以先去學習Python，之後再來學習C語言，這樣會更容易理解，有助於學習。</p>
-<h1 id="C語言第一篇——了解程序結構"><a href="#C語言第一篇——了解程序結構" class="headerlink" title="C語言第一篇——了解程序結構"></a>C語言第一篇——了解程序結構</h1><blockquote>
-<p>註：在這裏不在過多講解C的編譯環境設置，博主所用的系統為Linux系統，內置有C的環境，如果你是Windows用戶，網上安裝C編譯環境的教程很多，可以自己去網上找。</p>
-</blockquote>
-<h3 id="程序結構"><a href="#程序結構" class="headerlink" title="程序結構"></a>程序結構</h3><p>某些編程語言都會有它特定的程序結構，如C的平常的程序結構由預處理器指令、主函數、返回表達式、註釋（可以寫入也可以不用寫入）。如下面給出一個C程序，輸入文本”hello world”：</p>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">#include &lt;stdio.h&gt;         &#x2F;&#x2F; 預處理器指令
-int main()                &#x2F;&#x2F; 主要函數，主要的程序在這個函數內執行，由」&#123;「」&#125;「等括號組成
-&#123;
-	printf(&quot;hello world&quot;);        &#x2F;&#x2F; 输出函数
-	return 0;              &#x2F;&#x2F; 返回表達式
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>這就是C的程序結構，至於”#include””&lt;stdio.h&gt;等這些東西先不要掌握它是什麽，以後會提到，只要在編寫代碼的時候把它記住就可以了。</p>
-<blockquote>
-<p>註：Linux下想要執行C程序，需要&gt;&gt;文本編輯器&gt;&gt;輸入C語言代碼&gt;&gt;保存，後綴設為.c&gt;&gt;打開終端&gt;&gt;輸入進入保存剛剛創建的C語言文件的文件目錄&gt;&gt;輸入命令gcc 文件名.c&gt;&gt;這時生成了一個名為a.out的文件&gt;&gt;在終端輸入命令.&#x2F;a.out即可執行編寫好的C程序。</p>
-</blockquote>
-
+        
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
     </div>
