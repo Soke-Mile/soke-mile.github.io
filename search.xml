@@ -54,19 +54,21 @@
 <p>註：在這裏不在過多講解C的編譯環境設置，博主所用的系統為Linux系統，內置有C的環境，如果你是Windows用戶，網上安裝C編譯環境的教程很多，可以自己去網上找。</p>
 </blockquote>
 <h3 id="程序結構"><a href="#程序結構" class="headerlink" title="程序結構"></a>程序結構</h3><p>某些編程語言都會有它特定的程序結構，如C的平常的程序結構由預處理器指令、主函數、返回表達式、註釋（可以寫入也可以不用寫入）。如下面給出一個C程序，輸入文本”hello world”：</p>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">#include &lt;stdio.h&gt;         &#x2F;&#x2F; 預處理器指令
-int main()                &#x2F;&#x2F; 主要函數，主要的程序在這個函數內執行，由」&#123;「」&#125;「等括號組成
-&#123;
-	printf(&quot;hello world&quot;);        &#x2F;&#x2F; 输出函数
-	return 0;              &#x2F;&#x2F; 返回表達式
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">#include &lt;stdio.h&gt;         // 預處理器指令
+int main()                // 主要函數，主要的程序在這個函數內執行，由」{「」}「等括號組成
+{
+	printf("hello world");        // 输出函数
+	return 0;              // 返回表達式
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>這就是C的程序結構，至於”#include””&lt;stdio.h&gt;等這些東西先不要掌握它是什麽，以後會提到，只要在編寫代碼的時候把它記住就可以了。</p>
 <blockquote>
-<p>註：Linux下想要執行C程序，需要&gt;&gt;文本編輯器&gt;&gt;輸入C語言代碼&gt;&gt;保存，後綴設為.c&gt;&gt;打開終端&gt;&gt;輸入進入保存剛剛創建的C語言文件的文件目錄&gt;&gt;輸入命令gcc 文件名.c&gt;&gt;這時生成了一個名為a.out的文件&gt;&gt;在終端輸入命令.&#x2F;a.out即可執行編寫好的C程序。</p>
+<p>註：Linux下想要執行C程序，需要&gt;&gt;文本編輯器&gt;&gt;輸入C語言代碼&gt;&gt;保存，後綴設為.c&gt;&gt;打開終端&gt;&gt;輸入進入保存剛剛創建的C語言文件的文件目錄&gt;&gt;輸入命令gcc 文件名.c&gt;&gt;這時生成了一個名為a.out的文件&gt;&gt;在終端輸入命令./a.out即可執行編寫好的C程序。</p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
       <tags>
-        <tag>C語言</tag>
         <tag>编程</tag>
       </tags>
   </entry>
