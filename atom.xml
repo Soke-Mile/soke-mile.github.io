@@ -6,10 +6,39 @@
   <link href="http://soke-mile.github.io/atom.xml" rel="self"/>
   
   <link href="http://soke-mile.github.io/"/>
-  <updated>2023-01-07T05:01:04.899Z</updated>
+  <updated>2023-01-07T10:11:07.945Z</updated>
   <id>http://soke-mile.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C和C++的相似而又不同（基础篇）</title>
+    <link href="http://soke-mile.github.io/2023/01/07/C%E5%92%8CC-%E7%9A%84%E7%9B%B8%E4%BC%BC%E8%80%8C%E5%8F%88%E4%B8%8D%E5%90%8C%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%89/"/>
+    <id>http://soke-mile.github.io/2023/01/07/C%E5%92%8CC-%E7%9A%84%E7%9B%B8%E4%BC%BC%E8%80%8C%E5%8F%88%E4%B8%8D%E5%90%8C%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%89/</id>
+    <published>2023-01-07T09:49:19.000Z</published>
+    <updated>2023-01-07T10:11:07.945Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>C语言是C++的基础，在学习C语言的时候我们可以很自然地过渡到C++中，但是尽管它们如此相似，但在某些方面如果搞不清楚可能会引发致命的问题。由标题可知，这一篇我们来讨论C语言和C++的基础有哪些不同。</p></blockquote><h2 id="程序结构的相似又不同"><a href="#程序结构的相似又不同" class="headerlink" title="程序结构的相似又不同"></a>程序结构的相似又不同</h2><p>扯那么多理论也没什么用，直接给两个代码实例：<br>C语言实例：   </p><pre><code class="C">#include &lt;stdio.h&gt;         // 预处理器指令，定义头文件int main()                   // 主函数{    printf("HelloWorld");          // 输出HelloWorld    return 0;                    // 返回0}</code></pre><p>C++实例：   </p><pre><code class="C++">#include &lt;iostream&gt;          // 预处理器指令，定义头文件using namespace std;          // 告诉编译器使用 std 命名空间。命名空间是 C++ 中一个相对新的概念int main(){    cout &lt;&lt; "HelloWorld";      // 输出HelloWorld    return 0;    // 返回0}</code></pre><p>从上面的代码实例中可以看出，C语言在定义头文件时使用”&lt;stdio.h&gt;”，而C++在定义头文件时使用”<iostream>“。C语言定义完头文件后直接写主函数，而C++定义完头文件后还得定义命名空间，这也是C++比C语言进步的一个体现。同样是输出”HelloWorld”，C语言用”printf();”函数输出，而C++使用”cout &lt;&lt; ;”输出，在基础语法上除了这些东西不同剩下的都相同。</iostream></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;C语言是C++的基础，在学习C语言的时候我们可以很自然地过渡到C++中，但是尽管它们如此相似，但在某些方面如果搞不</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="http://soke-mile.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="C++" scheme="http://soke-mile.github.io/categories/C%E8%AF%AD%E8%A8%80/C/"/>
+    
+    
+    <category term="C语言" scheme="http://soke-mile.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="C++" scheme="http://soke-mile.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>民主共和的美国</title>
