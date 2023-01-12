@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Soke的博客</title>
+  <title>Soke&amp;Blog</title>
   
-  
+  <subtitle>Soke&amp;Blog</subtitle>
   <link href="http://soke-mile.github.io/atom.xml" rel="self"/>
   
   <link href="http://soke-mile.github.io/"/>
   <updated>2023-01-09T10:50:16.613Z</updated>
   <id>http://soke-mile.github.io/</id>
+  
+  <author>
+    <name>Soke</name>
+    
+  </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
